@@ -1,0 +1,1 @@
+set CLASSPATH = %CLASSPATH%;JAVA_HOME\lib;lib\hibernate-core-4.2.21.Final.jar
