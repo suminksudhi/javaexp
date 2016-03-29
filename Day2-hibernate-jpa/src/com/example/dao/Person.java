@@ -1,14 +1,15 @@
+package com.example.dao;
 public class Person{
 	
 	private int uid;
 	private String name;
 	private int age;
 	
-	public int getUId(){
+	public int getUid(){
 		return this.uid;
 	}
 	
-	public void setUId(int uid){
+	public void setUid(int uid){
 		this.uid = uid;
 	}
 	
@@ -24,7 +25,7 @@ public class Person{
 		return this.age;
 	}
 	
-	public void setName(int age){
+	public void setAge(int age){
 		this.age = age;
 	}
 	

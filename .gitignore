@@ -1,1 +1,6 @@
 lib
+Servers
+.settings
+.metadata
+RemoteSystemsTempFiles
+bin
