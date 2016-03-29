@@ -1,23 +1,17 @@
 package com.example.dao;
 
-import org.dom4j.*;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
 
 public class PersonDAO{
 	
-	public static void save(Person person){
-		Configuration cf = new Configuration();
-		@SuppressWarnings("deprecation")
-		SessionFactory sf = cf.configure().buildSessionFactory();
-		Session session = sf.openSession();
-		Transaction tx = session.beginTransaction();
-			session.save(person);
+	public static void save(EntityManagerFactory entityManagerFactory,Person p1){
+		EntityManager entityManager= entityManagerFactory.createEntityManager();
+		EntityTransaction tx = entityManager.getTransaction();
+			entityManager.persist(p1);
 		tx.commit();
-		session.close();
-		sf.close();
+		entityManager.close();
 	}
 	
 }

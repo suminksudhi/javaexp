@@ -1,25 +1,22 @@
 package com.example.dao;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 
 public class Main {
 	public static void main(String[] args){
-		
-		/**Configuration cf = new Configuration();
-		@SuppressWarnings("deprecation")
-		SessionFactory sf = cf.configure().buildSessionFactory();
-		Session session = sf.openSession();
-		sf.close();
-		**/
 		
 		Person p1 = new Person();
 		p1.setUid(100);
 		p1.setName("Sumin");
 		p1.setAge(25);
-		PersonDAO.save(p1);
+		
+		String persistenceUnitName = "mysql-unit";
+		//JPA bootstrapping use entityManager
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory(persistenceUnitName);
+		PersonDAO.save(entityManagerFactory,p1);
+		entityManagerFactory.close();
 		
 	}
 }
