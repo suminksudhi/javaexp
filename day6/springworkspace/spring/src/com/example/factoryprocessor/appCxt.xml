@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<context:component-scan base-package="com.example.factoryprocessor" />
+	<context:property-placeholder location="com/example/factoryprocessor/application.properties"   />
+		
+	
+	<!-- 
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>com/example/factoryprocessor/application.properties</value>
+		</property>
+	</bean>
+	 -->
+	 
+	<bean id="helloWorld" class="com.example.factoryprocessor.HelloWorld">
+		<property name="greeting" value="${user.greet}" />
+	</bean>
+	
+</beans>

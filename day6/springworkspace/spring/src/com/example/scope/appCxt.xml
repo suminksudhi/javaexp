@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+ 
+ 
+ 	<bean id="helloWorld" class="com.example.scope.HelloWorld" scope="singleton"  lazy-init="false" init-method="init">
+ 		<property name="greeting">
+ 			<value>Good Night</value>
+ 		</property>
+ 	</bean>
+ 
+</beans>

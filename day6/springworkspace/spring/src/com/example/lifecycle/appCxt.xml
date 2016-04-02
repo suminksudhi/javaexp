@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+ 
+ 	<bean id="libraryService" class="com.example.lifecycle.LibraryService">
+ 	</bean>
+ 
+ 	<bean id="accountService" class="com.example.lifecycle.AccountService">
+ 	</bean>
+  
+ 	<bean id="hello" class="com.example.lifecycle.HelloWorld" init-method="init" destroy-method="clean">
+ 	</bean>
+ 
+</beans>
