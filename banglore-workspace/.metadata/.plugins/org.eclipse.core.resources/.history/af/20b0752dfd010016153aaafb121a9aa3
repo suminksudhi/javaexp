@@ -1,0 +1,21 @@
+package com.example.functionalinterface;
+
+public class MailDemo {
+	
+	public static void main(String[] args) {
+		new MailDemo();		
+	}
+	public MailDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		IMailService mailService = new IMailService() {
+			
+			public void sendMail(String from, String to, String subject, String content) {
+				System.out.println("%s has sent mail to %s with subject as %s and content is ' %s '!%n");				
+			}
+		};		
+	}
+
+}

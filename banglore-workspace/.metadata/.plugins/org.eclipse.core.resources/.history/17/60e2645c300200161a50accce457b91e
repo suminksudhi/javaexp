@@ -1,0 +1,18 @@
+package com.example.defaultex;
+
+public class FurnitureDemo {
+
+	public static void main(String[] args) {
+		
+		Furniture furniture = new Desk();
+		
+		
+		Desk desk = new Desk();
+		desk.make();
+		desk.paint();
+		desk.breakIt();
+		
+		
+		
+	}
+}

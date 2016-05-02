@@ -1,0 +1,29 @@
+package com.example.stream;
+
+import java.util.stream.IntStream;
+
+import org.apache.derby.impl.sql.catalog.SYSROUTINEPERMSRowFactory;
+
+public class ParallelDemo {
+	
+	public static void main(String[] args) {
+		new ParallelDemo();
+	}
+
+	public ParallelDemo() {
+		demoOne();
+		demoTwo();
+	}
+	
+	private void demoOne(){
+		IntStream stream = IntStream.range(1, 20);
+		stream.forEach((v) -> System.out.println(v) );
+		
+	}
+
+	private void demoTwo(){
+		
+		
+	}
+
+}

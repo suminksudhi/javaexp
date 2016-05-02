@@ -1,0 +1,18 @@
+package com.example.generics;
+
+public class AcountManager {
+
+	public static void main(String[] args) {
+		
+		SavingAccount savingAccount = new SavingAccount("Laden",12.00,50000.00);
+		CurrentAccount currentAccount = new SavingAccount("Laden",12.00,500000.00);
+		
+		
+		
+		
+		Account account = new Account("Laden",12.00);
+		AccountServiceImpl_bak accountServiceImpl = new AccountServiceImpl_bak();
+		System.out.println(accountServiceImpl.openAccount(account));
+		System.out.println(accountServiceImpl.closeAccount(account));
+	}
+}

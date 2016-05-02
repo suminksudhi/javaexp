@@ -1,0 +1,6 @@
+package com.example.functionalinterface;
+
+public interface ICalService {
+	
+	
+}

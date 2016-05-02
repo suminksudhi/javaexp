@@ -1,0 +1,9 @@
+package com.example.generics;
+
+public class Holder<T> {
+
+	T data;
+	
+	public Holder() {
+	}
+}

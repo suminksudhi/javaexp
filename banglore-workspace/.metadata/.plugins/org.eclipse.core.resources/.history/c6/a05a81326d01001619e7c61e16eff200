@@ -1,0 +1,24 @@
+package com.example.lambda;
+
+public class PersonDemo {
+
+	public static void main(String[] args) {
+		new PersonDemo();
+	}
+
+	public PersonDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		Person person1 = new Person(10, "Raj", 23);
+		Person person2 = new Person(20, "Rohan", 67);
+		Person person3 = new Person(30, "Jaggu", 67);
+		Person person4 = new Person(40, "Chandu", 67);
+		Person person5 = new Person(50, "Pintu", 67);
+		Person person6 = new Person(60, "Ghanshu", 67);
+		
+		
+		
+	}
+}

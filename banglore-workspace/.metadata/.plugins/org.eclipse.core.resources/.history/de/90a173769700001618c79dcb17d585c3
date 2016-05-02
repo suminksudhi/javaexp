@@ -1,0 +1,10 @@
+package com.example.enumex;
+
+public enum Season {
+
+	WINTER,SUMMER,SPRING,RAINY;
+	
+	private Season(){
+		System.out.println("Inside Season()");
+	}
+}

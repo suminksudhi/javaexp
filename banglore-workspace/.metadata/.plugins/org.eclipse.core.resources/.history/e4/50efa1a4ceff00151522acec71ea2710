@@ -1,0 +1,8 @@
+package com.example.generics;
+
+public class DataPresenter {
+
+	<T> public void show(String data){
+		System.out.println(data);
+	}
+}

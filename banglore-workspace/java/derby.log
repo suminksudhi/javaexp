@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Apr 13 11:53:08 IST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0154-0e49-a624-0000035a9180 
+on database directory C:\banglore-workspace\java\synechrondb with class loader sun.misc.Launcher$AppClassLoader@4e0e2f2a 
+Loaded from file:/C:/banglore-workspace/java/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_73-b02
+user.dir=C:\banglore-workspace\java
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

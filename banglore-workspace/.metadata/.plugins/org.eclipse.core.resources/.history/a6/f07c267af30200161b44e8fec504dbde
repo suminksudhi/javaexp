@@ -1,0 +1,24 @@
+package com.example.stream;
+
+public class ParallelDemo {
+	
+	public static void main(String[] args) {
+		new ParallelDemo();
+	}
+
+	public ParallelDemo() {
+		demoOne();
+		demoTwo();
+	}
+	
+	private void demoOne(){
+		//IntStream.rangeClosed(1, 100).forEach((v) -> System.out.println(v) );
+		IntStream.rangeClosed(1, 100);
+}
+
+	private void demoTwo(){
+		
+		
+	}
+
+}

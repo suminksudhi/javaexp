@@ -1,0 +1,25 @@
+package com.example.datetime;
+
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.temporal.ChronoUnit;
+
+public class AdjusterDemo {
+
+	public static void main(String[] args) {
+		new AdjusterDemo();
+	}
+
+	public AdjusterDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+
+		LocalDate currentDate = LocalDate.now();
+		System.out.printf("Current Date : %s%n",currentDate);
+
+		
+
+	}
+}

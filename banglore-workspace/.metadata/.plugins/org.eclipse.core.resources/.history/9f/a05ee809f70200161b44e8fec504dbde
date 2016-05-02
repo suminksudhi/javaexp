@@ -1,0 +1,23 @@
+package com.example.jsex;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+
+public class JavaScriptDemo {
+
+	public static void main(String[] args) {
+		new JavaScriptDemo();
+	}
+	
+	public JavaScriptDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
+		ScriptEngine engine = scriptEngineManager.getEngineByName("nashorn");
+	
+		engine.eval();
+	}
+}

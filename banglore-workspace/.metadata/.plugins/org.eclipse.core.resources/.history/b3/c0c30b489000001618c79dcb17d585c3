@@ -1,0 +1,15 @@
+package com.example.enumex;
+
+public class EnumDemo {
+	
+	public static void main(String[] args) {
+
+		Person person1 = new Person(100,"Kallu",Month.JAN);
+		System.out.println(person1);
+	
+		Person person2 = new Person(200,"Raju",Month.FEB);
+		System.out.println(person2);
+					
+	}
+	
+}

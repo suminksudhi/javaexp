@@ -1,0 +1,20 @@
+package com.example.console;
+
+import java.io.Console;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Console console = System.console();
+		if(console != null){
+			
+			String name = console.readLine("Enter user name  :");
+			
+		}else{
+			System.out.println("No Console available");
+		}
+		
+		
+	}
+}

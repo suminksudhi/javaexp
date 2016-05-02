@@ -1,0 +1,9 @@
+package com.example.generics;
+
+import java.time.LocalTime;
+
+public class AccountServiceImpl implements IAccountService<T> {
+
+	
+	
+}

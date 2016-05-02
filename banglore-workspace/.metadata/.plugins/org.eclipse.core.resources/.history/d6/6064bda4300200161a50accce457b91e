@@ -1,0 +1,9 @@
+package com.example.defaultex;
+
+public interface Seller {
+	
+	default void sellIt(){
+		
+	}
+
+}

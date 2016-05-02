@@ -1,0 +1,11 @@
+package com.example.generics;
+
+public class DataHolder {
+
+	String data;
+	
+	public DataHolder(String data) {
+		this.data = data;
+		// TODO Auto-generated constructor stub
+	}
+}

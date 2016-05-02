@@ -1,0 +1,33 @@
+package com.example.generics;
+
+public class DataHolderDemo {
+	
+	public static void main(String[] args) {
+		new DataHolderDemo();
+	}
+	
+	public DataHolderDemo() {
+		demoTwo();
+		//demoOne();
+	}
+
+	private void demoTwo(){
+		DataHolder<String> holder1 = new DataHolder<String>("Cat");
+		holder1.display();
+		System.out.println();
+
+		DataHolder<Integer> holder2 = new DataHolder<Integer>(120);
+		holder2.display();
+		
+		DataHolder<Product> holder3 = new DataHolder<Product>(new Product(100, "Pen", 120.00));
+		holder3.display();
+	}
+	
+	private void demoOne(){
+		DataHolder holder1 = new DataHolder("Lion");
+		holder1.display();
+
+		DataHolder holder2 = new DataHolder(120000);
+		holder2.display();
+	}
+}

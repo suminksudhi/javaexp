@@ -1,0 +1,18 @@
+package com.example.enumex;
+
+public enum Calc { 
+	
+	SUM{
+		
+		public int calculate(int a,int b){
+			
+		}
+
+	},
+	DIFF{},
+	MULTIPLY{},
+	DIVIDE{};
+	
+	public abstract int calculate(int a,int b); 
+
+}

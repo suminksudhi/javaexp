@@ -1,0 +1,16 @@
+package com.example.generics;
+
+import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
+
+public class DataHolder {
+
+	String data;
+	
+	public DataHolder(String data) {
+		this.data = data;
+	}
+	
+	public void display(){
+		System.out.println(this.data);
+	}
+}

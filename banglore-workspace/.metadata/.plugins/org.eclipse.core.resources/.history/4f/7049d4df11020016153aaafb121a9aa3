@@ -1,0 +1,9 @@
+package com.example.functionalinterface;
+
+public class ConsumerDemo {
+	
+	private void mai() {
+		new ConsumerDemo();
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.example.stringswitch;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String color = "RED";
+		
+		switch (color) {
+		case "RED":
+			System.out.println("RED is shine color!");
+			break;
+		case "RED":
+			System.out.println("RED is shine color!");
+			break;
+		default:
+			break;
+		}
+		
+	}
+
+}

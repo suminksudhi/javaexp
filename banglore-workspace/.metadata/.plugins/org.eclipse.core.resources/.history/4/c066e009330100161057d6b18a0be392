@@ -1,0 +1,13 @@
+package com.example.desktop;
+
+import java.awt.Desktop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Desktop desktop = Desktop.getDesktop();
+		
+		
+	}
+}

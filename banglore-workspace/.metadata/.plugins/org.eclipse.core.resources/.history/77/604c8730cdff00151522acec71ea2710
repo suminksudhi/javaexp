@@ -1,0 +1,18 @@
+package com.example.generics;
+
+public class DataHolder<T,V> {
+
+	T data;
+
+	public DataHolder(T data) {
+		this.data = data;
+	}
+
+	public void display() {
+		System.out.println(this.data);
+	}
+	
+	public T read() {
+		return this.data;
+	}
+}

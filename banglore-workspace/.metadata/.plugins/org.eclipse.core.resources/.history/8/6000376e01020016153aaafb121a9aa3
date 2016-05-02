@@ -1,0 +1,8 @@
+package com.example.functionalinterface;
+
+public class AlarmDemo {
+
+	public static void main(String[] args) {
+		new AlarmDemo();
+	}
+}

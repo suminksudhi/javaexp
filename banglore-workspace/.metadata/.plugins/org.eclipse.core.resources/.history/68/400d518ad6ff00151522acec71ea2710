@@ -1,0 +1,9 @@
+package com.example.generics;
+
+public class BMW {
+
+	public void run(){
+		System.out.println("Car is running.....");
+	}
+	
+}

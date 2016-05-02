@@ -1,0 +1,11 @@
+package com.example.generics;
+
+public interface IAccountService<T> {
+
+	public T openAccount(T account);
+	public T closeAccount(T account);
+	public boolean deposit(double amount);
+	public boolean withdraw(double amount);
+	public double balance(int id);
+
+}

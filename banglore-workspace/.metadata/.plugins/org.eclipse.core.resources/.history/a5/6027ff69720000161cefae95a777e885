@@ -1,0 +1,18 @@
+package com.example.generics;
+
+public class SavingAccount extends Account{
+	
+	double withrawLimit=0.0;
+
+	public double getWithrawLimit() {
+		return withrawLimit;
+	}
+
+	public void setWithrawLimit(double withrawLimit) {
+		this.withrawLimit = withrawLimit;
+	}
+
+	
+	
+	
+}

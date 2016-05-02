@@ -1,0 +1,12 @@
+package com.example.generics;
+
+public class DataPresenter {
+
+	public <T> void show(T data){
+		System.out.println(data);
+	}
+
+	public <T,V> void showData(T data){
+		System.out.println(data);
+	}
+}

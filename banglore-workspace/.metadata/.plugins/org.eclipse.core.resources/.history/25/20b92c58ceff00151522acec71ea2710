@@ -1,0 +1,22 @@
+package com.example.generics;
+
+public class DataPresenterDemo {
+
+	public static void main(String[] args) {
+		new DataPresenterDemo();
+	}
+
+	public DataPresenterDemo() {
+		// demoTwo();
+		demoOne();
+	}
+
+	private void demoTwo() {
+
+	}
+
+	private void demoOne() {
+		DataPresenter presenter = new DataPresenter();
+		presenter.show();
+	}
+}

@@ -1,0 +1,20 @@
+package com.example.lambda;
+
+import javax.swing.JFrame;
+
+public class UIDemo {
+
+	public static void main(String[] args) {
+		new UIDemo();
+	}
+	
+	public UIDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		JFrame frame = new JFrame("");
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.example.generics;
+
+public class CurrentAccount extends Account{
+	
+	double odLimit=0.0;
+	
+	public CurrentAccount(String name, double amount,double odLimit) {
+		super(name,amount);
+		this.odLimit = odLimit;
+	}
+
+
+	
+
+}

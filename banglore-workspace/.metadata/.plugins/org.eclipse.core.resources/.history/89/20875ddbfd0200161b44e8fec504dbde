@@ -1,0 +1,19 @@
+package com.example.base64;
+
+public class Main {
+
+	public static void main(String[] args) {
+		new Main();
+	}
+	
+	public Main() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		String password = "secret";
+		
+		
+	}
+}

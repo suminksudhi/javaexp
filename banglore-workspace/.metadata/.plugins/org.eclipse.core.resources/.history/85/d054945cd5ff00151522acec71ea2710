@@ -1,0 +1,21 @@
+package com.example.generics;
+
+public class HolderDemo {
+	
+	public static void main(String[] args) {
+		new HolderDemo();
+	}
+	
+	public HolderDemo() {
+		//demoTwo();
+		demoOne();
+	}
+
+	private void demoTwo(){
+	}
+	
+	private void demoOne(){
+		
+		Holder<String> holder = new Holder("Rahul");
+	}
+}

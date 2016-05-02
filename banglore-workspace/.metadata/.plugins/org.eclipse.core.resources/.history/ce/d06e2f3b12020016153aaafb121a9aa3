@@ -1,0 +1,20 @@
+package com.example.functionalinterface;
+
+import java.util.function.Consumer;
+
+public class ConsumerDemo {
+	
+	public static void main(String[] args) {
+		new ConsumerDemo();
+	}
+	
+	public ConsumerDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		Consumer consumer1 = (a)-> { System.out.println(a);};
+		
+	}
+
+}

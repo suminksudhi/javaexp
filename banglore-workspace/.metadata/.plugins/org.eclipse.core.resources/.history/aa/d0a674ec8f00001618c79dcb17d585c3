@@ -1,0 +1,12 @@
+package com.example.enumex;
+
+public class EnumDemo {
+	
+	public static void main(String[] args) {
+
+		Person person = new Person(100,"Kallu",5);
+		
+			
+	}
+	
+}

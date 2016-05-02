@@ -1,0 +1,18 @@
+package com.example.lambda;
+
+public class UIDemo {
+
+	public static void main(String[] args) {
+		new UIDemo();
+	}
+	
+	public UIDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		
+		
+	}
+}

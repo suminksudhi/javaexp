@@ -1,0 +1,28 @@
+package com.example.jsex;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+public class JavaScriptDemo {
+
+	public static void main(String[] args) {
+		new JavaScriptDemo();
+	}
+	
+	public JavaScriptDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		ScriptEngineManager scriptEngineManager = new ScriptEngineManager();
+		ScriptEngine engine = scriptEngineManager.getEngineByName("nashorn");
+	
+		try {
+			engine.eval("print(10+2)");
+		} catch (ScriptException e) {
+			e.printStackTrace();
+		}
+	}
+}

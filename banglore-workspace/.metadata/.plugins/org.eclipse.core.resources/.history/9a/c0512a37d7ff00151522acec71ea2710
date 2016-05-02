@@ -1,0 +1,11 @@
+package com.example.generics;
+
+public class CarMechanic<T> {
+
+	T car;
+	
+	public void fixIt(){
+		System.out.println("CarMechanic is fixing.... and testing.....");
+	}
+	
+}

@@ -1,0 +1,39 @@
+package com.example.generics;
+
+import java.time.LocalTime;
+
+public class AccountServiceImpl implements IAccountService<T> {
+
+	@Override
+	public T openAccount(T account) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public T closeAccount(T account) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double deposit(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double withdraw(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double balance(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+	
+}

@@ -1,0 +1,6 @@
+package com.example.enumex;
+
+public enum Season {
+
+	WINTER,SUMMER,SPRING,RAINY;
+}

@@ -1,0 +1,18 @@
+package com.example.lambda;
+
+import java.util.function.Consumer;
+
+public class LambdaDemo {
+	
+	public static void main(String[] args) {
+		
+		
+		Consumer expr1 = (a) -> { System.out.println(a);};
+		Consumer expr2 = (Object a) -> { System.out.println(a);};
+		Consumer expr3 = (Object a) ->  System.out.println(a);
+		
+				
+	}
+
+	
+}

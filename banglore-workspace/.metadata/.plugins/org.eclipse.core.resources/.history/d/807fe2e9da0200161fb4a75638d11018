@@ -1,0 +1,23 @@
+package com.example.optional;
+
+import java.util.Optional;
+
+public class OptionalDemo {
+	
+	public static void main(String[] args) {
+		new OptionalDemo();
+	}
+	
+	public OptionalDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+		Integer i = new Integer(100);
+		
+		Optional<Integer> optional = Optional
+		
+	}
+
+}

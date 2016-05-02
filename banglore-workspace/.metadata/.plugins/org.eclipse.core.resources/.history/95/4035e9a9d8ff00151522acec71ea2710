@@ -1,0 +1,5 @@
+package com.example.generics;
+
+public interface Accelerator {
+	public void accelerate();
+}

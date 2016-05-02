@@ -1,0 +1,31 @@
+package com.example.datetime;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class DateDemo {
+
+	public static void main(String[] args) {
+		new DateDemo();
+	}
+
+	public DateDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+
+		LocalDate currentDate = LocalDate.now();
+		System.out.printf("Current Date : %s%n",currentDate);
+
+		currentDate = LocalDate.of(2010, 3, 12);
+		System.out.printf("Current Date : %s%n",currentDate);
+
+		currentDate = LocalDate.of(2010, Month.NOVEMBER, 15);
+		System.out.printf("Current Date : %s%n",currentDate);
+
+		currentDate = LocalDate.ofYearDay(2005,168);
+		System.out.printf("Current Date : %s%n",currentDate);
+
+	}
+}

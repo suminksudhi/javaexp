@@ -1,0 +1,16 @@
+package com.example.lambda;
+
+public class PersonDemo {
+
+	public static void main(String[] args) {
+		new PersonDemo();
+	}
+
+	public PersonDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+	}
+}

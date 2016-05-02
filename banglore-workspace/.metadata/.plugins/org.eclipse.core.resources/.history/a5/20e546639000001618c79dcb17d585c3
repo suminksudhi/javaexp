@@ -1,0 +1,9 @@
+package com.example.enumex;
+
+public enum Month {
+
+	public final static int JAN  = 1;
+	public final static int FEB  = 2;
+	public final static int MAR  = 3;
+	
+}

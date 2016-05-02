@@ -1,0 +1,8 @@
+package com.example.enumex;
+
+public enum Calc { 
+	SUM,DIFF,MULTIPLY,DIVIDE;
+	
+	public void 
+
+}

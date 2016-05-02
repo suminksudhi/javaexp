@@ -1,0 +1,42 @@
+package com.example.stream;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class GroupingDemo {
+
+	public static void main(String[] args) {
+		new GroupingDemo();
+	}
+
+	public GroupingDemo() {
+		demoFour();
+		demoThree();
+		demoTwo();
+		demoOne();
+	}
+
+	private void demoFour() {
+
+	}
+
+	private void demoThree() {
+
+	}
+
+	private void demoTwo() {
+
+	}
+
+	private void demoOne() {
+		
+		Employee.employees().stream().collect(Collectors.groupingBy(  emp -> { return emp.getState(); });
+		System.out.println("===============================================");
+	}
+
+	public void show(String arg) {
+		System.out.printf("Filtered Name : %s%n", arg);
+	}
+}

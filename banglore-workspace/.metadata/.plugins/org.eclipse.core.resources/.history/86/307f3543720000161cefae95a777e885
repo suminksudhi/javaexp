@@ -1,0 +1,6 @@
+package com.example.generics;
+
+public class SavingAccount extends Account{
+	
+	
+}

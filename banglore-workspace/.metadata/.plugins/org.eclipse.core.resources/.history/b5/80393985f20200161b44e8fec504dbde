@@ -1,0 +1,15 @@
+package com.example.stream;
+
+public class ParallelDemo {
+	
+	public static void main(String[] args) {
+		new ParallelDemo();
+	}
+
+	public ParallelDemo() {
+		demoOne();
+		demoTwo();
+	}
+	
+
+}

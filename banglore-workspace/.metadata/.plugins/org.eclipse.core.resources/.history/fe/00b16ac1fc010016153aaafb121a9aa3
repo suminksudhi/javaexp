@@ -1,0 +1,9 @@
+package com.example.functionalinterface;
+
+public class MailDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

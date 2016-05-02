@@ -1,0 +1,19 @@
+package com.example.annotation;
+
+
+public class AccountService{
+
+	public void bankDetails(String details) {
+		System.out.println(details);
+	}
+
+	
+	public T openAccount(T account) {
+		account.setStatus(true);
+		account.setId(LocalTime.now().getNano() * Runtime.getRuntime().freeMemory()
+				* Runtime.getRuntime().availableProcessors());
+		return account;
+	}
+
+	
+}

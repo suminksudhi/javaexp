@@ -1,0 +1,16 @@
+package com.example.datetime;
+
+public class DateDemo {
+
+	public static void main(String[] args) {
+		new DateDemo();
+	}
+
+	public DateDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+	}
+}

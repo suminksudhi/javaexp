@@ -1,0 +1,54 @@
+package com.example.referencemethod;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.example.functionalinterface.PrintUtil;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		new CollectionDemo();
+	}
+
+	public CollectionDemo() {
+		demoThree();
+		demoTwo();
+		demoOne();
+	}
+
+	private void demoFour() {
+		List<String> names = Arrays.asList("Raj", "Mohan", "Chandu", "Ghansu", "Pintu", "Lalu", "Kalia",
+				"Kallu Khatarnak", "Laden Boss", "Dawood Bhai");
+		names.forEach(PrintUtil::show);
+		System.out.println();
+		System.out.println("=========================================");
+	}
+
+	private void demoThree() {
+		List<String> names = Arrays.asList("Raj", "Mohan", "Chandu", "Ghansu", "Pintu", "Lalu", "Kalia",
+				"Kallu Khatarnak", "Laden Boss", "Dawood Bhai");
+		names.forEach(this::show);
+		System.out.println();
+		System.out.println("=========================================");
+	}
+
+	private void demoTwo() {
+		List<String> names = Arrays.asList("Raj", "Mohan", "Chandu", "Ghansu", "Pintu", "Lalu", "Kalia",
+				"Kallu Khatarnak", "Laden Boss", "Dawood Bhai");
+		names.forEach(System.out::println);
+		System.out.println("=========================================");
+	}
+
+	private void demoOne() {
+		List<String> names = Arrays.asList("Raj", "Mohan", "Chandu", "Ghansu", "Pintu", "Lalu", "Kalia",
+				"Kallu Khatarnak", "Laden Boss", "Dawood Bhai");
+		names.forEach((name)->System.out.println(name));
+		System.out.println("=========================================");
+	}
+	
+	public void show(String name){
+		System.out.printf("Name : %s  |  ",name);
+	}
+
+}

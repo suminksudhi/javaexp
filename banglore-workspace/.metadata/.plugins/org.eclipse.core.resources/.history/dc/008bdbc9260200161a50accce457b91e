@@ -1,0 +1,9 @@
+package com.example.functionalinterface;
+
+public class PrintUtil {
+	
+	public void show(String name){
+		System.out.printf("Name : %s  |  ",name);
+	}
+	
+}

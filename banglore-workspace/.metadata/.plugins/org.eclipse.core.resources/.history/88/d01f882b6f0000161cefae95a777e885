@@ -1,0 +1,12 @@
+package com.example.generics;
+
+public class Account {
+	
+	int id;
+	double amount;
+	boolean status;
+	
+	
+	
+	
+}

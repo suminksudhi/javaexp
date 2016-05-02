@@ -1,0 +1,12 @@
+package com.example.enumex;
+
+public class SeasonDemo {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Season.SPRING);
+		for(int month :  Season.SUMMER.month)
+			
+		
+	}
+}

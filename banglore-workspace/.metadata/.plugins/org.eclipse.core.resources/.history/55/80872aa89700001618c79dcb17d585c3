@@ -1,0 +1,12 @@
+package com.example.enumex;
+
+public enum Season {
+
+	WINTER,SUMMER,SPRING,RAINY;
+
+	int month[] = new int[];
+	
+	private Season(){
+		System.out.println("Inside Season()");
+	}
+}

@@ -1,0 +1,26 @@
+package com.example.functionalinterface;
+
+public class CalDemo {
+	
+	public static void main(String[] args) {
+		new CalDemo();
+	}
+
+	public CalDemo() {
+		demoTwo();
+		demoOne();
+	}
+
+	private void demoTwo(){
+		//startAlarm(()-> System.out.printf("Hello Mr. Lazy man, get up fast.... House is on fire...."));
+	}
+
+	private void demoOne(){
+		ICalServie sumService = (a,b)-> System.out.println(a+b);
+		ICalServie diffService = (a,b)-> System.out.println(a+b);
+		ICalServie multiplyService = (a,b)-> System.out.println(a+b);
+		ICalServie divideService = (a,b)-> System.out.println(a+b);
+		
+	}
+	
+}

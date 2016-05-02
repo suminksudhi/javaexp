@@ -1,0 +1,22 @@
+package com.example.datetime;
+
+import java.time.LocalDate;
+
+public class ZonedDateDemo {
+
+	public static void main(String[] args) {
+		new ZonedDateDemo();
+	}
+
+	public ZonedDateDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+
+		LocalDate currentDate = LocalDate.now();
+		System.out.printf("Current Date : %s%n",currentDate);
+	
+
+	}
+}

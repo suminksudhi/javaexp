@@ -1,0 +1,15 @@
+package com.example.annotation;
+
+@Author(name="Ritesh")
+public class AccountService {
+
+	public void bankDetails(String details) {
+		System.out.println(details);
+	}
+
+	@Author(name="Ritesh")
+	public boolean openAccount() {
+		return true;
+	}
+
+}

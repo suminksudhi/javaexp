@@ -1,0 +1,17 @@
+package com.example.webservice;
+
+import java.time.LocalTime;
+
+public class AccountService{
+
+	public void bankDetails(V details) {
+		System.out.println(details);
+	}
+
+	
+	public boolean openAccount() {
+		return true;
+	}
+
+	
+}

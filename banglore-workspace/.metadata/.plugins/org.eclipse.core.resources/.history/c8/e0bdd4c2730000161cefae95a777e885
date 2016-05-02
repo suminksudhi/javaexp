@@ -1,0 +1,11 @@
+package com.example.generics;
+
+public class AcountManager {
+
+	public static void main(String[] args) {
+		Account account = new Account("Laden",12.00);
+		AccountServiceImpl_bak accountServiceImpl = new AccountServiceImpl_bak();
+		System.out.println(accountServiceImpl.openAccount(account));
+		System.out.println(accountServiceImpl.closeAccount(account));
+	}
+}

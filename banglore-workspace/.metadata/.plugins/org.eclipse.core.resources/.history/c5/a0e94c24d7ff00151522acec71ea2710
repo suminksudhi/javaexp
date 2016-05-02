@@ -1,0 +1,27 @@
+package com.example.generics;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Car car = new Car();
+		BMW bmw = new BMW();
+		Audi audi = new Audi();
+		Bus bus = new Bus();
+		
+		CarMechanic<Car> mechanic1 = new CarMechanic<>();
+		mechanic1.fixIt();
+		
+		CarMechanic<Car> mechanic1 = new CarMechanic<>();
+		mechanic1.fixIt();
+		
+		CarMechanic<Car> mechanic1 = new CarMechanic<>();
+		mechanic1.fixIt();
+		
+		CarMechanic<Car> mechanic1 = new CarMechanic<>();
+		mechanic1.fixIt();
+		
+		
+		
+	}
+}

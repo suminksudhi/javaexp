@@ -1,0 +1,9 @@
+package com.example.optional;
+
+public class EmployeeDAO {
+	
+	public Employee readById(int id){
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.example.stream;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class FilterDemo {
+
+	public static void main(String[] args) {
+		new FilterDemo();
+	}
+
+	public FilterDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+	
+		List<String> names = Arrays.asList("Rani", "Ramu", "Chachu", "Ganshu", "Papa Jon", "Rancho", "Sudhir",
+				"Pintu","Jaggu", "Chandu", "Gabbar", "Lalu Yadav", "Kalia Khatarnak", "Kallu Don", "Rani Patiala",
+				"Rose Gulabi", "Laden Humble", "Dawood Raja");
+			
+		Stream<String> stream = names.stream();	
+		
+	}
+}

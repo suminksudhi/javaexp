@@ -1,0 +1,36 @@
+package com.example.stream;
+
+import java.util.Arrays;
+import java.util.IntSummaryStatistics;
+import java.util.List;
+
+import org.apache.derby.impl.sql.catalog.SYSROUTINEPERMSRowFactory;
+
+public class StatsDemo {
+
+	public static void main(String[] args) {
+		new StatsDemo();
+	}
+
+	public StatsDemo() {
+		demoOne();
+	}
+
+	private void demoOne(){
+		
+		List<Integer> integers = Arrays.asList(23,5,4,23,98,7,5,43,65,34,78,5,23,45,9,87,54,23);
+		
+		IntSummaryStatistics statistics = integers.stream().mapToInt(a -> a).summaryStatistics();
+
+		System.out.println("Max Value : "+statistics.getMax());
+		System.out.println("Min Value : "+statistics.getMin());
+		System.out.println("Count Value : "+statistics.getCount());
+		System.out.println("Avg Value : "+statistics.getAverage());
+		System.out.println("Sum Value : "+statistics.getSum());
+
+		
+		System.out.println("===============================================");
+	}
+
+	
+}

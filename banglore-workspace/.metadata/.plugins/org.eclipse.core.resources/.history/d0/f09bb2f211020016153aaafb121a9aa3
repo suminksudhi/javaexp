@@ -1,0 +1,17 @@
+package com.example.functionalinterface;
+
+public class ConsumerDemo {
+	
+	public static void main(String[] args) {
+		new ConsumerDemo();
+	}
+	
+	public ConsumerDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		
+	}
+
+}

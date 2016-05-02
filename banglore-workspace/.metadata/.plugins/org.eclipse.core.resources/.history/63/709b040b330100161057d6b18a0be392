@@ -1,0 +1,18 @@
+package com.example.desktop;
+
+import java.awt.Desktop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Desktop desktop = Desktop.getDesktop();
+		if(desktop != null){
+			
+		}else{
+			System.out.println("No Desktop support by the machine!");
+		}
+		
+		
+	}
+}

@@ -1,0 +1,39 @@
+package com.example.generics;
+
+public class DataPresenterDemo {
+
+	public static void main(String[] args) {
+		new DataPresenterDemo();
+	}
+
+	public DataPresenterDemo() {
+		demoThree(); 
+		//demoTwo();
+		//demoOne();
+	}
+
+	
+	private void demoThree() {
+
+		DataPresenter dataPresenter = new DataPresenter();
+		dataPresenter.showMoreData("Laptop", 150,450);
+		dataPresenter.showMoreData("Laptop", 150,450L);
+			
+	}
+
+	private void demoTwo() {
+
+		DataPresenter dataPresenter = new DataPresenter();
+		dataPresenter.showData("Laptop", 150);
+		dataPresenter.showData("Laptop", "HP");
+			
+	}
+
+	private void demoOne() {
+		DataPresenter presenter = new DataPresenter();
+		presenter.show("Red");
+		presenter.show(189);
+		presenter.show(new Product(100, "Mobile", 1345.00));
+		
+	}
+}

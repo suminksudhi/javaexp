@@ -1,0 +1,8 @@
+package com.example.defaultex;
+
+public interface Furniture {
+
+	public abstract void paint();
+	public abstract void paint();
+	
+}

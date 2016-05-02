@@ -1,0 +1,20 @@
+package com.example.stringswitch;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String color = "RED";
+		
+		switch (color) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+
+}

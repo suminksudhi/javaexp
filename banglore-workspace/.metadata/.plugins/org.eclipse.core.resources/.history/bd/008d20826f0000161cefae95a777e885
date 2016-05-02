@@ -1,0 +1,7 @@
+package com.example.generics;
+
+public interface IAccountService {
+	
+	public boolean appenAccount();
+
+}

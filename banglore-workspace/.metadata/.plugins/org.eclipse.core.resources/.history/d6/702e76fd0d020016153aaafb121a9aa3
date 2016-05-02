@@ -1,0 +1,8 @@
+package com.example.functionalinterface;
+
+public class MailSender {
+
+	public static void sender(String from, String to, String subject, String content,IMailService mailService){
+		mailService.sendMail(from,to,subject,content);
+	}
+}

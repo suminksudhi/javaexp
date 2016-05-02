@@ -1,0 +1,25 @@
+package com.example.datetime;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.temporal.ChronoUnit;
+
+public class TimeDemo {
+
+	public static void main(String[] args) {
+		new TimeDemo();
+	}
+
+	public TimeDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+
+		LocalTime currentTime = LocalTime.now();
+		System.out.printf("Current Time : %s%n",currentTime);
+
+	
+	}
+}

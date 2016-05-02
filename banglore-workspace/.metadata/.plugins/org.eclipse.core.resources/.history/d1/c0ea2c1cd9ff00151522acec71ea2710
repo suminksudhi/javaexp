@@ -1,0 +1,14 @@
+package com.example.generics;
+
+public class BMW extends Car implements Acceleratable{
+	
+
+	public void run(){
+		System.out.println("BMW is running.....");
+	}
+
+	public void accelerate() {
+		
+	}
+	
+}

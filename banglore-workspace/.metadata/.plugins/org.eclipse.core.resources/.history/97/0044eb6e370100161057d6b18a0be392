@@ -1,0 +1,20 @@
+package com.example.javadb;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class Main {
+	
+	public static void main(String[] args) throws Exception{
+		
+		Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+		Connection connection = DriverManager.getConnection("jdbc:derby:synechrondb;create=true");
+	}
+	
+	private static void generateTable(Connection connection) throws Exception{
+		PreparedStatement statement= connection.prepareStatement("create table product_details(pid int,name varchar(20))");
+		
+		statement.executeUpdate()
+	}
+}

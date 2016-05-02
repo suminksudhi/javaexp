@@ -1,0 +1,34 @@
+package com.example.generics;
+
+import java.time.LocalTime;
+
+public class AccountServiceImpl implements IAccountService<Account> {
+
+		
+	public Account openAccount(Account account) {
+		account.setStatus(true);
+		account.setId(LocalTime.now().getNano()*Runtime.getRuntime().freeMemory()*Runtime.getRuntime().availableProcessors());
+		return account;
+	}
+
+	public Account closeAccount(Account account) {
+		account.setStatus(false);
+		return account;
+	}
+
+	public double deposit(double amount) {
+		return 1500000.00;
+	}
+
+	@Override
+	public double withdraw(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double balance(int id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

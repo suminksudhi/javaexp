@@ -1,0 +1,13 @@
+package com.example.javadb;
+
+import java.sql.DriverManager;
+
+public class Main {
+	
+	public static void main(String[] args) throws Exception{
+		
+		Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+		DriverManager.getConnection("jdbc:derby:synechrondb");
+		
+	}
+}

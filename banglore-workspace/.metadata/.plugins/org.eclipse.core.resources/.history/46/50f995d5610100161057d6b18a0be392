@@ -1,0 +1,16 @@
+package com.example.javadb;
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		new ThreadDemo();
+	}
+	
+	public ThreadDemo() {
+
+	}
+	
+	private void demoOne(){
+		
+	}
+}

@@ -1,0 +1,8 @@
+package com.example.defaultex;
+
+public interface Seller {
+	
+	
+	
+
+}

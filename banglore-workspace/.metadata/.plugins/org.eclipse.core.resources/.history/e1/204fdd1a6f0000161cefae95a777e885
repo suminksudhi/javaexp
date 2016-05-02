@@ -1,0 +1,10 @@
+package com.example.generics;
+
+public interface Account {
+
+	int id;
+	double amount;
+	
+	
+	
+}

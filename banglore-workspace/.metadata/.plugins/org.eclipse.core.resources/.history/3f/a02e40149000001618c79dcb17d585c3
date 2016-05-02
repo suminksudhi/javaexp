@@ -1,0 +1,5 @@
+package com.example.enumex;
+
+public interface Month {
+
+}

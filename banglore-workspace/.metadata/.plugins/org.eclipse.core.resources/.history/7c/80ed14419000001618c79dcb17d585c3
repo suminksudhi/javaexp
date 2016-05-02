@@ -1,0 +1,13 @@
+package com.example.enumex;
+
+public class EnumDemo {
+	
+	public static void main(String[] args) {
+
+		Person person = new Person(100,"Kallu",Month.JAN);
+		
+		System.out.println(person);
+					
+	}
+	
+}

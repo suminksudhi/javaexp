@@ -1,0 +1,13 @@
+package com.example.underscore;
+
+public class Main {
+	
+	public static void main(String[] args) {
+
+		long i = 1897000000;
+		long i = 1897000000;
+		
+		
+	}
+
+}

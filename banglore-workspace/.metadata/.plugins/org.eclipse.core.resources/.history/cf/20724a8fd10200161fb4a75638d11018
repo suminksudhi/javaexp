@@ -1,0 +1,27 @@
+package com.example.stream;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.derby.impl.sql.catalog.SYSROUTINEPERMSRowFactory;
+
+public class StatsDemo {
+
+	public static void main(String[] args) {
+		new StatsDemo();
+	}
+
+	public StatsDemo() {
+		demoOne();
+	}
+
+	private void demoOne(){
+		
+		List<Integer> integers = Arrays.asList(23.999,5,4,23,98,7,5,43,65,34,78,5,23,45,9,87,54,23);
+		integers.stream().mapToInt(a -> a);
+		
+		System.out.println("===============================================");
+	}
+
+	
+}

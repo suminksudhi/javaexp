@@ -1,0 +1,19 @@
+package com.example.lambda;
+
+public class PersonDemo {
+
+	public static void main(String[] args) {
+		new PersonDemo();
+	}
+
+	public PersonDemo() {
+		demoOne();
+	}
+	
+	private void demoOne(){
+		Person person1 = new Person(10, "Raj", 23);
+		Person person2 = new Person(20, "Rohan", 267);
+		
+		
+	}
+}

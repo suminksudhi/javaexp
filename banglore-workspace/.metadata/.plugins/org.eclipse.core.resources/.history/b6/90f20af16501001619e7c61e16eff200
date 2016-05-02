@@ -1,0 +1,34 @@
+package com.example.lambda;
+
+public class ThreadDemo {
+
+	public static void main(String[] args) {
+		new ThreadDemo();
+	}
+	
+	public ThreadDemo() {
+		demoTwo();
+		demoOne();
+	}
+
+	//Java 8
+	private void demoTwo(){
+		
+		Thread thread = new Thread();
+		thread.start();
+	}
+
+	
+	//Before Java 8
+	private void demoOne(){
+		Thread thread = new Thread(new PrintTask());
+		thread.start();
+	}
+}
+
+class PrintTask implements Runnable{
+
+	public void run() {
+		System.out.println("Printing........");
+	}
+}

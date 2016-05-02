@@ -1,0 +1,5 @@
+package com.example.functionalinterface;
+
+public interface IMailService {
+	public abstract void sendMail(String from,String to,String subject,String content);
+}

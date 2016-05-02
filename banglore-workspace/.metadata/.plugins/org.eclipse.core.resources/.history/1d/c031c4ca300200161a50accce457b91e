@@ -1,0 +1,22 @@
+package com.example.defaultex;
+
+public class Desk implements Furniture,Seller{
+
+	public void make() {
+		System.out.println("Desk is ready.....");
+	}
+	
+	public void paint() {
+		System.out.println("Desk is painted .....");
+	}
+	
+	@Override
+	public void sellIt() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void breakIt(){
+		System.out.println("Desk is already broken!");
+	}
+
+}

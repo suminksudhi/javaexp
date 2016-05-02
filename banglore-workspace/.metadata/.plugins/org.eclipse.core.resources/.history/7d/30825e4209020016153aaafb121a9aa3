@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+	/*
+	var d  = new Date();
+	var str  = new String("Fine");
+	var arr  = new Array(45,76,2,3,4,6,7);
+	console.log(d);
+	console.log(str);
+	console.log(arr);
+	
+	var sum = new Function('a','b',"return a+b");
+	alert(sum(10,20));
+	
+	sum.title= 'Mathematical Calculator';
+	alert(sum.title);
+	
+	
+	var i = 100;
+	
+	alert(i);
+	alert(typeof i);
+	
+	var hi = function (){
+		document.write("Hi Mr. Raj");
+		document.write("<br>");
+	}
+	
+	alert(hi);
+	alert(typeof hi);
+	
+	hi();
+	
+	function hello(){
+		document.write("Hello Mr. Raj");
+		document.write("<br>");
+	}
+
+	hello();
+	alert(typeof hello);
+	
+	hello.version = '2.0.0';
+	alert(hello.version);
+	*/
+	
+	function doWork(){
+		document.write("I am doing my work.....");
+		document.write("<br>");
+	}
+	
+	doWork();
+	
+	var a  = doWork;
+	
+</script>
+</head>
+<body>
+</body>
+</html>

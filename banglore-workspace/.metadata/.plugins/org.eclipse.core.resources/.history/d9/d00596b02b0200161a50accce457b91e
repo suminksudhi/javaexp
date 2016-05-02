@@ -1,0 +1,13 @@
+package com.example.defaultex;
+
+public interface Furniture {
+
+	public abstract void make();
+	public abstract void paint();
+	
+	void breakIt(){
+		
+	}
+	
+	
+}
